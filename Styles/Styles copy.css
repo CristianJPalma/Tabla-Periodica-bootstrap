@@ -1,0 +1,199 @@
+body{
+    background-image: url(/img/lienzo-azul_2880x1800_xtrafondos.com.jpg);
+    background-color: rgb(37, 37, 197);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+.title{
+    font-size: 50px;
+    margin: 0px;
+    float: right;
+}
+.mensajes{
+    width: 330px;
+    grid-template-columns: 2fr 1.5fr;
+    display: grid;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+.mensajes div{
+    border-radius: 5px;
+    display: flex;
+}
+.cuadrito{
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 4px;
+}
+.cuadrito2{
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 4px;
+    border-radius: 40%; 
+}
+.info{
+    font-size: 10px;
+    margin: 0px;
+}
+.info2{
+    font-size: 7px;
+    margin: 0px;
+}
+.celda{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.5px;
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0px;
+    color: white;
+}
+.celda-none{
+    border: 1px solid transparent;
+    margin: 0.5px;
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.grande{
+    border: 1px solid black;
+    border-radius: 9px;
+    margin: 0.5px;
+    width: 7.5rem;
+    height: 7.5rem;
+    position: relative;
+    top: 120px;
+    left: 20%;
+    color: white;
+}
+.masa-atomic-big{
+    margin-left: 5px;
+    font-size: 0.9rem;
+    display: flex;
+}
+.number-element-big{
+    font-size: 1rem;
+    margin-right: 0px;
+    float: right;
+}
+.simbolo-element-big{
+    font-size: 2.3rem;
+    margin: 0px;
+    margin-left: 30px;
+    text-align: center;
+}
+.name-element-big{
+    font-size: 1.3rem;
+    margin: 0px;
+    text-align: center;
+}
+.number-element-2-big{
+    display: flex;
+}
+.number-raro-big{
+    float: right;
+}
+.abajo{
+    margin-top: 39px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.name-element{
+    font-size: 0.5rem;
+    text-align: center;
+}
+.simbolo-element{
+    font-size: 1rem;
+    text-align: center;
+    margin: 12px 10px 2px 12px;
+}
+.number-element{
+    font-size: 0.6rem;
+    margin: 0;
+    float: right;
+    margin-right: 5px;
+}
+.number-element-2{
+    font-size: 0.6rem;
+    margin-left: 5px;
+    display: flex;
+}
+.number-raro{
+    font-size: 0.6rem;
+    margin-right: 5px;
+    float: right;
+}
+.name-element-2{
+    margin: 0px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+.color-purpel{
+    background-color: rgb(146, 2, 146);
+}
+.color-cyan{
+    background-color: rgb(9, 164, 253);
+}
+.color-orange{
+    background-color: rgb(255, 166, 0);
+}
+.color-red{
+    background-color: rgb(255, 30, 0);
+}
+.color-aqua{
+    background-color: rgb(2, 214, 143);
+}
+.color-greenclear{
+    background-color: rgb(157, 235, 40);
+}
+.color-blue{
+    background-color: rgba(89, 30, 201, 0.815);
+}
+.color-pink{
+    background-color: rgb(255, 0, 128);
+}
+.color-greenclear-2{
+    background-color: rgb(185, 255, 81);
+}
+.color-green{
+    background-color: rgb(17, 173, 17);
+}
+.color-gray{
+    background-color: gray;
+}
+.color-yellow{
+    background-color: yellow;
+}
+.color-letra-purpel{
+    -webkit-text-fill-color: rgb(78, 1, 122);
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+}
+.color-letra-red{
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+}
+.color-letra-white{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: .6px black;
+}
+.color-letra-black{
+    color: black;
+}
+.color-letra-blue{
+    -webkit-text-fill-color: rgb(9, 164, 253);
+    -webkit-text-stroke: .7px white;
+}
+.color-letra-red-2{
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+}
